@@ -19,7 +19,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Package') {
       steps {
         sh 'mvn package'
       }
